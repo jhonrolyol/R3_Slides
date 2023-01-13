@@ -1,0 +1,72 @@
+---
+title: 'Introducción al análisis de datos usando R'
+subtitle: "Estadística Básica"
+author: "Jhon Roly"
+date: '2 de enero de 2023' 
+institute: "Universidad Nacional de San Cristóbal de Huamanga" 
+section-titles: false  # Provides slide headings
+safe-columns: true     # Enables special latex macros for columns.
+output: 
+   beamer_presentation:
+    theme: "Berlin"
+    colortheme: "seagull"
+classoption: "aspectratio=169"
+---
+
+# Sección 1 
+
+## Slide 1
+
+### Entorno 1 
+
+Contenido del primer slide en R Markdown
+
+**Enlaces importantes**
+
+- [Overleaf](https://es.overleaf.com/)
+- [CRAN](https://cran.r-project.org/)
+- [IMF](https://www.imf.org/en/Home)
+
+*Enlaces*
+
+1. <https://www.bcrp.gob.pe/>
+2. <https://github.com/jhonrolyol>
+
+
+#### Title for block box
+
+Content inside of a box 
+
+# Sección 2
+
+## Slide 2
+
+### Entorno 2
+
+\begin{exampleblock}{Binomial Theorem}
+  \begin{equation} 
+    f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+    \label{eq:binom}
+  \end{equation} 
+\end{exampleblock}
+
+Hello Equation \ref{eq:binom}
+
+# Sección 3
+
+## Slide 3 
+
+\begin{exampleblock}{hhaah}
+  \begin{equation}
+    Y = a + bX + u
+  \end{equation}
+\end{exampleblock}
+
+# Sección 4
+
+## Slide 4 
+
+\begin{equation}
+  Y_{i} = \alpha_{1} + \beta_{2}X_{i} + \mu_{i}
+\end{equation}
+
